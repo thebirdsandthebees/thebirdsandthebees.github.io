@@ -1,0 +1,19 @@
+nav i {
+	padding-left: 15px;
+}
+
+textarea {
+	font-size: 1.4em !important;
+}
+
+h6 {
+	font-weight: bold !important;
+}
+
+hr {
+	width: 80%;
+}
+
+.answer {
+	font-weight: bold;
+}

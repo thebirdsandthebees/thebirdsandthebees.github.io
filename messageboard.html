@@ -4,21 +4,135 @@
 		<title>Message Board</title>
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="../css/lessonStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/messageBoardStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<!-- Materilize CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 	</head>
 
-	<body>
+	<body class="summary">
+
+		<!-- start navigation -->
+		<div id="navBar">
+			<!-- Dropdown Structure -->
+			<!-- sexual reproduction dropdown -->
+			<ul id="sr_dropdown" class="dropdown-content">
+				<li><a href="sexualreproduction/whatisit.html">What is it?</a></li>
+				<li><a href="sexualreproduction/why.html">Why is it necessary?</a></li>
+			</ul>
+
+			<!-- Am I ready for sex dropdown -->
+			<ul id="sex_dropdown" class="dropdown-content">
+				<li><a href="sex/howtoknow.html">How can I know?</a></li>
+				<li><a href="sex/values.html">Values</a></li>
+				<li><a href="sex/abstinence.html">Not ready yet?</a></li>
+			</ul>
+
+			<!-- Safe Sex dropdown -->
+			<ul id="safe_dropdown" class="dropdown-content">
+				<li><a href="safesex/contraception.html">Contraception</a></li>
+				<li><a href="safesex/std.html">STIs</a></li>
+			</ul>
+
+			<div class="navbar-fixed">
+				<nav>
+					<a href="#" class="brand-logo center">Birds and the Bees</a>
+					<ul id="slide-out" class="side-nav">
+						<li><a href="introduction.html">Introduction</a></li>
+						<li><a class="dropdown-button" href="#!" data-activates="sr_dropdown">Sexual Reproduction<i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="pregnancy/pregnancy.html">Pregnancy</a></li>
+						<li><a href="humandevelopment/development.html">Human Development</a></li>
+						<li><a href="sexuality/sexuality.html">Sexuality</a></li>
+						<li><a class="dropdown-button" href="#!" data-activates="sex_dropdown">Am I ready for sex?<i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="relationships/relationships.html">Relationships</a></li>
+						<li><a class="dropdown-button" href="#!" data-activates="safe_dropdown">Safe Sex<i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a href="relationships/relationships.html">Summary</a></li>
+						<li><a href="messageboard.html">Message Board<i class="material-icons right">question_answer</i></a></li>
+					</ul>
+
+
+					<a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+						<i class="white-text mdi-navigation-menu"></i>
+					</a>
+				</nav>
+			</div>
+		</div>
+		<!-- end navigation -->
+
 		<h1 style="text-align: center;">Message Board</h1>
 
-		<form action="" id="messageboard">
-			<textarea rows="4" cols="50" placeholder="Have a question? Ask away!" id="messageBoadTextArea" autofocus="autofocus"></textarea>
-		</form>
+		<div class="row">
+			<div class="col s12 m8 offset-m2">
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="postTitle" type="text" length="50">
+            			<label for="postTitle">Question</label>
+					</div>
+					<div class="input-field col s12">
+						<textarea id="postMessage" class="materialize-textarea" length="500"></textarea>
+						<label for="postMessage">Message (Optional)</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="right-align">
+						<button class="btn waves-effect waves-light" onclick="submit();">Submit
+		    				<i class="material-icons right">send</i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<div id="messages">
+			<div class="row">
+				<div class="col s12 m8 offset-m2">
+					<h4>How do you use a condom?</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed congue massa. Pellentesque scelerisque dapibus est cursus pellentesque. Sed ut ex viverra, dapibus leo id, porta tortor. Curabitur suscipit sagittis sem at maximus. Nunc facilisis nunc convallis, eleifend nibh vel, congue turpis. Integer mollis elit non pharetra venenatis. Etiam tellus eros, pellentesque quis molestie sed, laoreet ut tortor. Phasellus laoreet massa tortor, nec efficitur enim consequat imperdiet. Proin commodo ipsum a semper pellentesque. Donec sed elit mi. Suspendisse facilisis aliquam velit eu tincidunt. Nam condimentum justo at dui aliquet lobortis. Nulla eu justo semper, accumsan magna vel, gravida lorem. Nulla rutrum eget nisl id auctor.</p>
+
+					<h6 class="right-align">Posted Mar 07 2016</h6>
+
+					<div class="row answer">
+						<div class="col s12">
+							<h6>Answer:</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida enim eget orci volutpat, malesuada feugiat tortor fringilla. Pellentesque sed tortor volutpat, posuere enim et, condimentum massa. Fusce et erat tortor. Aenean nec felis quis nisl malesuada venenatis pharetra sit amet purus. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col s12 m8 offset-m2">
+					<h4>How can I talk with my partner about having sex?</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed congue massa. Pellentesque scelerisque dapibus est cursus pellentesque. Sed ut ex viverra, dapibus leo id, porta tortor. Curabitur suscipit sagittis sem at maximus. Nunc facilisis nunc convallis, eleifend nibh vel, congue turpis. Integer mollis elit non pharetra venenatis. Etiam tellus eros, pellentesque quis molestie sed, laoreet ut tortor. Phasellus laoreet massa tortor, nec efficitur enim consequat imperdiet. Proin commodo ipsum a semper pellentesque. Donec sed elit mi. Suspendisse facilisis aliquam velit eu tincidunt. Nam condimentum justo at dui aliquet lobortis. Nulla eu justo semper, accumsan magna vel, gravida lorem. Nulla rutrum eget nisl id auctor.</p>
+
+					<p>Nulla eu semper neque. Quisque at ex ac eros elementum egestas id non erat. Nullam lobortis malesuada orci, et dictum urna interdum non. Aenean semper ipsum in consequat pharetra. Nunc et sapien eget lorem venenatis dapibus non dapibus mi. Maecenas ac sem justo. Etiam sit amet velit non est facilisis varius eget nec libero. Aenean vulputate nunc et tellus hendrerit aliquam. Suspendisse commodo purus est, vitae consequat sapien ullamcorper a. In interdum justo ac sem mattis posuere eu nec eros. Cras vitae quam lacinia, dignissim velit eu, viverra nunc. Donec volutpat nulla vel facilisis fringilla. In eros leo, dictum et euismod et, aliquet quis turpis. Pellentesque scelerisque massa pharetra magna pulvinar, nec placerat ex porttitor.</p>
+
+					<h6 class="right-align">Posted Feb 29 2016</h6>
+
+					<div class="row answer">
+						<div class="col s12">
+							<h6>Answer:</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida enim eget orci volutpat, malesuada feugiat tortor fringilla. Pellentesque sed tortor volutpat, posuere enim et, condimentum massa. Fusce et erat tortor. Aenean nec felis quis nisl malesuada venenatis pharetra sit amet purus. Donec vitae placerat est. Curabitur maximus accumsan justo. Donec iaculis, mi in consequat sodales, lorem est sagittis justo, vel dignissim mi sem eu dui. Sed eget elit ac libero iaculis vulputate. Etiam sit amet ipsum orci.</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
 		</div>
 
+		<!-- Scripts -->
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+		<script>
+			$(".button-collapse").sideNav({
+				menuWidth: 300,
+				edge: "left",
+				closeOnClick: false
+			});
+		</script>
+		<script type="text/javascript" src="js/messageboard.js"></script>
 	</body>
 </html>

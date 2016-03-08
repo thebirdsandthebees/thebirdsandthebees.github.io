@@ -1,0 +1,12 @@
+/* Overwrite materialize CSS here */
+#header-name {
+	font-size: 1.3em;
+}
+
+#about {
+	font-size: 14pt;
+}
+
+.text-justify {
+	text-align: justify;
+}
