@@ -18,7 +18,7 @@
 		function showHeader() {
 			var passedHeader = false;
 
-			$(".brand-logo").addClass('grey-text text-darken-2');
+			$(".brand-logo").addClass('black-text');
 			var headerBottomPosition = $("header h1").offset().top;
 			$(document).scroll(function() {
 				if($(document).scrollTop() > headerBottomPosition) {
