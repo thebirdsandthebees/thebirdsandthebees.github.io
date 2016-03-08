@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Summary</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/lessonStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<!-- Materilize CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	</head>
+
+	<body>
+		<!-- Dropdown Structure -->
+		<!-- sexual reproduction dropdown -->
+		<ul id="sr_dropdown" class="dropdown-content">
+			<li><a href="sexualreproduction/whatisit.html">What is it?</a></li>
+			<li><a href="sexualreproduction/why.html">Why is it necessary?</a></li>
+		</ul>
+
+		<!-- Am I ready for sex dropdown -->
+		<ul id="sex_dropdown" class="dropdown-content">
+			<li><a href="sex/howtoknow.html">How can I know?</a></li>
+			<li><a href="sex/values.html">Values</a></li>
+			<li><a href="sex/abstinence.html">Not ready yet?</a></li>
+		</ul>
+
+		<!-- Safe Sex dropdown -->
+		<ul id="safe_dropdown" class="dropdown-content">
+			<li><a href="safesex/contraception.html">Contraception</a></li>
+			<li><a href="safesex/std.html">STIs</a></li>
+		</ul>
+
+		<div class="navbar-fixed">
+			<nav>
+				<a href="#" class="brand-logo center">Birds and the Bees</a>
+				<ul id="slide-out" class="side-nav">
+					<li><a href="introduction.html">Introduction</a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="sr_dropdown">Sexual Reproduction<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="pregnancy/pregnancy.html">Pregnancy</a></li>
+					<li><a href="humandevelopment/development.html">Human Development</a></li>
+					<li><a href="sexuality/sexuality.html">Sexuality</a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="sex_dropdown">Am I ready for sex?<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="relationships/relationships.html">Relationships</a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="safe_dropdown">Safe Sex<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="relationships/relationships.html">Summary</a></li>
+					<li><a href="messageboard.html">Message Board<i class="material-icons right">question_answer</i></a></li>
+				</ul>
+
+
+				<a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+					<i class="black-text mdi-navigation-menu"></i>
+				</a>
+			</nav>
+		</div>
+
+		<header>
+			<div class="row">
+				<h1 class="center-align">Summary</h1>
+			</div>
+		</header>
+
+		<div class="row">
+			<div class="content col s8 offset-s2">
+				<h4>What next?</h4>
+				<p class="flow-text">We thought that for a closing statement, we would leave you with a little more than just some more text on a screen. So here's a video from a few people you might know, outlining the key points to remember when being sexually active. Enjoy :)</p>
+			</div>
+		</div>
+
+		<div class="row offset-s2 center-align">
+			<div class="col s8 offset-s2">
+				<div class="video-container">
+		        	<iframe width="560px" height="315px" src="https://www.youtube.com/embed/L0jQz6jqQS0?start=1071" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="content col s8 offset-s2">
+				<h4>Have more questions?</h4>
+				<p class="flow-text">Click below to head over to the message board where you can anonymously post a question! A member of our community will get back to you ASAP!</p>
+			</div>
+		</div>
+
+		<div class="row center-align">
+			<a href="messageboard.html" class="waves-effect blue-text white btn-large"><i class="material-icons right">question_answer</i>Message Board</a>
+		</div>
+
+		<!-- Modal for quick tutorial -->
+		<!-- Modal Structure -->
+		<div id="first-lesson-modal" class="modal">
+			<div class="modal-content">
+				<h4>Welcome to your first lesson!</h4>
+				<p>We'll start with a brief discussion about sexual reproduction. Each section can be found on the menu off to the left hand side of the screen. Just click the menu icon located in the top left corner to access the menu. At the end of each lesson, there will be a button directing you where to go next!<br>
+				<br>
+				Ready to learn about sex?!</p>
+			</div>
+			<div class="modal-footer">
+				<a class="modal-action modal-close waves-effect blue-text waves-green btn-flat">YES! Let me learn!</a>
+			</div>
+		</div>
+
+
+		<!-- Scripts -->
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+
+</html>

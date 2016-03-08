@@ -1,14 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>The Birds and the Bees</title>
-		<meta charset="utf-8">
-		<link href="style.css" type="text/css" rel="stylesheet"/>
-	</head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>The Birds and The Bees</title>
 
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<!-- materialize CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+	</head>
 	<body>
-		<frameset rows='100%, *' frameborder=no framespacing=0 border=0>
-			<iframe src="http://students.washington.edu/oflann/info200resource/index.html" name=mainwindow frameborder=no framespacing=0 marginheight=0 marginwidth=0></iframe>
-		</frameset>
+		<!-- Start Navigation -->
+		<nav class="light-blue" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="header-name" class="brand-logo white-text" href="index.html">The Birds and the Bees</a>
+				<ul class="right hide-on-med-and-down">
+					<li>
+						<a class="modal-trigger waves-effect waves-light" href="#about">About</a>
+					</li>
+				</ul>
+
+				<ul id="nav-mobile" class="side-nav">
+					<li>
+						<a href="introduction.html">Start Learning</a>
+					</li>
+					<li>
+						<a href="mailto:info200ac6@gmail.com">Contact Us</a>
+					</li>
+					<li>
+						<a href="messageboard.html">Message Board</a>
+					</li>
+					<li>
+						<a class="modal-trigger waves-effect waves-light" href="#about">About</a>
+					</li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</nav>
+		<!-- End Nav -->
+
+		<!-- Start Content -->
+
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<br><br>
+				<h1 class="header center">Let's talk about sex.</h1>
+				<div class="row center">
+					<h5 class="header col s12 light">Welcome to a simple resource by young adults, for young adults.</h5>
+				</div>
+				<div class="row center">
+					<a href="introduction.html" id="download-button" class="btn-large waves-effect waves-light red lighten-1">Get Started</a>
+				</div>
+				<br><br>
+
+			</div>
+		</div>
+
+		<div id="about" class="modal">
+			<div class="modal-content">
+				<h4>About Us</h4>
+				<hr />
+				<p>The Birds and the Bees is a website resource developed to help teach young adults comprehensive sexual education. It is designed by a group of young adults for young adults to help reach out to the up and coming generations in a more relatable manner. We are a team of college students working on this project for our INFO 200 course. Our goal is to spread accurate, uniform and comprehensive sexual education throughout the nation.</p>
+				<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="section">
+
+				<!--   Icon Section   -->
+				<div class="row">
+					<div class="col s12 m4">
+						<div class="icon-block">
+							<h2 class="center red-text">
+								<i class="medium material-icons">live_help</i>
+							</h2>
+							<h5 class="center">Have any Questions?</h5>
+
+							<p class="light">Don't sweat it. We're here to offer a comprehensive sexual education course that will answer most common questions about anything sex-related. If you still have unanswered questions, head over to the question board to anonymously
+								post a question. We'll get back to it ASAP!</p>
+						</div>
+					</div>
+
+					<div class="col s12 m4">
+						<div class="icon-block">
+							<h2 class="center blue-text">
+								<i class="medium material-icons">assignment</i>
+							</h2>
+							<h5 class="center">Great for teachers!</h5>
+
+							<p class="light">This resource provides a simple and elegant solution to an awkward topic. We know that many teachers loathe the day they'll have to find a way to reach a younger generation with imperative information. But now you don't have to worry
+								about it! Our website will do all of the heavy lifting for you, and without any awkwardness!</p>
+						</div>
+					</div>
+
+					<div class="col s12 m4">
+						<div class="icon-block">
+							<h2 class="center green-text">
+								<i class="medium material-icons">group</i>
+							</h2>
+							<h5 class="center">You're not alone!</h5>
+
+							<p class="light">Throughout some point in our lives, we all find ourselves with some unanswered questions. And that's perfectly okay! It's human nature to be curious. Just know that you're not alone. We offer a great community of people that are eager to help!
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<br><br>
+
+			<div class="section"></div>
+		</div>
+		<!-- End Content -->
+
+		<!-- Start Footer -->
+		<footer class="page-footer red lighten-1">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Group Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project for our INFO 200 course. We are striving to spread accurate, uniform and comprehensive sexual education throughout the nation.</p>
+
+					</div>
+
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li>
+								<a class="white-text" href="mailto:info200ac6@gmail.com">Email</a>
+							</li>
+
+							<li>
+								<a class="white-text" href="">#birdsandbees</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					Made by
+					<a class="white-text text-lighten-3 modal-trigger" href="#about">A Group of Young Adults</a>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<!--  Scripts-->
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+		<script>
+		(function($) {
+			$(function() {
+
+				$(".button-collapse").sideNav({
+					menuWidth: 300,
+					edge: "left",
+					closeOnClick: false
+				});
+
+				$(document).ready(function() {
+					$('.modal-trigger').leanModal();
+				});
+			}); // end of document ready
+		})(jQuery); // end of jQuery name space
+
+		</script>
+
 	</body>
 </html>

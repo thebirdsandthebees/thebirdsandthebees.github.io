@@ -1,0 +1,90 @@
+body {
+	background: rgb(68, 163, 80);
+	font-size: 14pt;
+	color: white;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+nav {
+	background-color:  white !important;
+}
+
+nav i {
+	padding-left: 15px;
+}
+
+.parallax-container {
+	margin-bottom: 50px;
+}
+
+.sexual_reproduction {
+	background-color: #26A69A;
+}
+
+.human_development {
+	background-color: #3CA3EC;
+}
+
+.hd-content li {
+	list-style-type: disc !important;
+}
+
+.hd-content ul {
+	padding: 5px 0 5px 5% !important;
+}
+
+.human_development .parallax-container {
+	height: 350px;
+}
+
+.sexuality {
+	background-color: #8136F4;
+}
+
+.sexuality li {
+	list-style-type: disc !important;
+}
+
+.no-bullets li {
+	list-style-type: none !important;
+}
+
+.bullets li {
+	list-style-type: disc !important;
+}
+
+.sex {
+	background-color: #EE6E73;
+}
+
+.sex .parallax-container {
+	height: 325px;
+}
+
+.relationships {
+	background-color: #E63B2F;
+}
+
+.safesex {
+	background-color: #ff9800;
+}
+
+.pregnancy {
+	background-color: #607d8b;
+}
+
+.brand-logo {
+	color: white !important;
+	transition: color .1s;
+}
+
+#development-content > li {
+	list-style-type: none !important;
+}
+
+#first-lesson-modal {
+	color: black;
+}
